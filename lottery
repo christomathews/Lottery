@@ -12,7 +12,7 @@ contract Lottery{
     constructor() {
         lotOwner = msg.sender;
     }
-    //  join 
+    //  join the lottery
     function join() public payable{
        
         require(msg.value == 1 ether);
